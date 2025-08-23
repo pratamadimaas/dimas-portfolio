@@ -12,7 +12,7 @@ const skills = [
 
   // Frameworks & Libraries
   { name: "React", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { name: "Next.js", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+  { name: "Express.js", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { name: "Angular", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
   { name: "Laravel", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
   { name: "Tailwind CSS", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
