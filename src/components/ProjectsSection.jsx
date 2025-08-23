@@ -237,11 +237,11 @@ const projects = [
     },
     {
         id: 7,
-        title: "Accounting App with MERN Stack",
+        title: "Accounting System (MERN Stack)",
         description: "A comprehensive accounting application built with the MERN stack for streamlined financial record-keeping, from general journals to financial reports.",
         images:["/images/22.png", "/images/23.png", "/images/24.png"],
         tags: ["React.js", "Express.js", "Node.js", "MongoDB"],
-        image: "/images/22.png",
+        image: "/images/24.png",
         publishedAt: "2025-08-23",
         summary: "A full-stack accounting application that automates financial workflows, including general journal entries, ledger management, and real-time financial reporting.",
         team: [{
