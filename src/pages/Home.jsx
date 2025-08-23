@@ -1,5 +1,4 @@
 import { Navbar } from "../components/Navbar";
-import { ThemeToggle } from "../components/ThemeToggle";
 import { AboutSection } from "../components/AboutSection";
 import EducationSection from "../components/EducationSection";
 import { SkillsSection } from "../components/SkillsSection";
@@ -16,11 +15,6 @@ export const Home = () => {
       {/* Gradient Background - Full page background */}
       <div className="absolute inset-0 z-0">
         <GradientBackground />
-      </div>
-
-      {/* Theme Toggle */}
-      <div className="relative z-30">
-        <ThemeToggle />
       </div>
 
       {/* Navbar */}
