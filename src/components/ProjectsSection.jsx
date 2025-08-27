@@ -87,7 +87,7 @@ const projects = [
         id: 3,
         title: "Intrinsic Value Analyzer Stock Fair Value Calculator with Fundamental Insights",
         description: "An interactive calculator that helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
-        image: "/projects/15.png",
+        image: "/images/3.png",
         tags: ["Python", "Streamlit", "Pandas", "Plotly", "XlsxWriter"],
         publishedAt: "2025-08-13",
         summary: "An interactive calculator that helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
