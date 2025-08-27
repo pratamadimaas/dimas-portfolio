@@ -2,21 +2,20 @@ import { useState } from "react";
 import { Sparkles, Zap, Code2, Wrench, BarChart3, Layers } from "lucide-react";
 
 const skills = [
-  // Programming Languages
-  { name: "HTML/CSS", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-  { name: "JavaScript", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "Python", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "PHP", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
-  { name: "SQL", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "TypeScript", category: "programming", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+  // Tech Stack (Programming + Frameworks)
+  { name: "HTML/CSS", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  { name: "JavaScript", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "Python", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { name: "PHP", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+  { name: "SQL", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { name: "TypeScript", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
 
-  // Frameworks & Libraries
-  { name: "React.js", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { name: "Express.js", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-  { name: "Angular", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
-  { name: "Laravel", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
-  { name: "Tailwind CSS", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-  { name: "Node.js", category: "framework", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+  { name: "React.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { name: "Express.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+  { name: "Angular", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
+  { name: "Laravel", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
+  { name: "Tailwind CSS", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+  { name: "Node.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
 
   // Tools
   { name: "VS Code", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
@@ -36,8 +35,7 @@ const skills = [
 
 const categories = [
   { key: "all", label: "All", icon: Layers },
-  { key: "framework", label: "Frameworks & Libraries", icon: Code2 },
-  { key: "programming", label: "Programming Languages", icon: Code2 },
+  { key: "tech-stack", label: "Tech Stack", icon: Code2 },
   { key: "tools", label: "Tools", icon: Wrench },
   { key: "data-analytics", label: "Data Analytics", icon: BarChart3 },
 ];
