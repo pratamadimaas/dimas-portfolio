@@ -199,7 +199,7 @@ const projects = [
     },
     {
         id: 6,
-        title: "E-Commerce Platform for UMKM: Empowering Small Businesses with Digital Sales",
+        title: "Helping Small Businesses Thrive through an E-Commerce Platform for UMKM",
         description: "A responsive e-commerce application designed to help UMKM (Usaha Mikro, Kecil, dan Menengah) showcase and sell their products online, complete with an intuitive admin dashboard and seamless checkout process.",
         image: "/projects/4.png",
         tags: ["PHP", "Laravel", "Bootstrap", "Tailwind CSS", "MySQL"],
