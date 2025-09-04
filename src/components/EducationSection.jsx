@@ -31,7 +31,7 @@ const EducationSection = () => {
     },
     {
       degree: "Informatics",
-      school: "Universitas Sebelas Maret (UNS)",
+      school: "Universitas Sebelas Maret",
       year: "2017 - 2018",
       location: "Surakarta, Indonesia"
     },
@@ -39,13 +39,13 @@ const EducationSection = () => {
       degree: "Diploma I Kebendaharaan Negara",
       school: "Politeknik Keuangan Negara STAN",
       year: "2018 - 2019",
-      location: "Jakarta, Indonesia"
+      location: "Bintaro, Indonesia"
     },
     {
       degree: "Diploma III Manajemen Aset (Alih Program)",
       school: "Politeknik Keuangan Negara STAN",
       year: "2022 - 2024",
-      location: "Jakarta, Indonesia"
+      location: "Bintaro, Indonesia"
     }
   ];
 
