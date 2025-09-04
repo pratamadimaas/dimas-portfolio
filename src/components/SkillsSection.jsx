@@ -33,13 +33,10 @@ const skills = [
   { name: "Seaborn", category: "data-analytics", image: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" },
   { name: "Plotly", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" },
   { name: "Tableau", category: "data-analytics", image: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
-  { name: "Power BI", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
   { name: "Jupyter", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
   { name: "Scikit-learn", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
   { name: "TensorFlow", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
   { name: "VBA", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
-  { name: "R", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" },
-  { name: "Excel", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
   { name: "Google Sheets", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" },
 ];
 
