@@ -123,11 +123,11 @@ const projects = [
     {
         id: 4,
         title: "UP TUP Smart Document Generator for Administrative Finance",
-        description: "A comprehensive Python-based document generator application built with Tkinter for creating standardized UP PNBP, UP KKP, and TUP administrative documents with automated Word template processing and image integration.",
+        description: "Comprehensive Python-based document generator application built with Tkinter for creating standardized UP PNBP, UP KKP, and TUP administrative documents with automated Word template processing and image integration.",
         image: "/projects/6.png",
         tags: ["Python", "Tkinter", "Python-docx", "PIL/Pillow", "OS/Shutil"],
         publishedAt: "2025-06-14",
-        summary: "A comprehensive Python-based document generator application built with Tkinter for creating standardized UP PNBP, UP KKP, and TUP administrative documents with automated Word template processing and image integration.",
+        summary: "Comprehensive Python-based document generator application built with Tkinter for creating standardized UP PNBP, UP KKP, and TUP administrative documents with automated Word template processing and image integration.",
         images: ["/images/6.png"],
         team: [{
             name: "Muhamad Dimas Pratama",
