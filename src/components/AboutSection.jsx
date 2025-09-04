@@ -59,17 +59,16 @@ export const AboutSection = () => {
                 <div className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed relative pl-4">
                     <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse"></div>
-                    I specialize in building responsive, secure, and efficient web
-                    applications with modern frameworks. My focus is to deliver
-                    solutions that are not only functional but also user-friendly.
+                    I build responsive, secure, and efficient web applications using modern frameworks. 
+                    My focus is on creating solutions that are not just functional, 
+                    but also provide a great user experience.
                   </p>
 
                   <p className="text-muted-foreground leading-relaxed relative pl-4">
                     <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse delay-300"></div>
-                    In addition, I'm passionate about turning raw data into meaningful
-                    insights. By combining web development and data analytics, I help
-                    create smarter applications that support data-driven decision
-                    making.
+                    I also enjoy the challenge of making sense of data. 
+                    I leverage my skills in both development and data analysis to build intelligent applications 
+                    that provide valuable insights and support strategic decision-making.
                   </p>
                 </div>
 
