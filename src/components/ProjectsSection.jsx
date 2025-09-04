@@ -5,7 +5,7 @@ const projects = [
     {
         id: 1,
         title: "Sports Field Booking Application (Laravel)",
-        description: "A Laravel-based booking platform that enables tenants to reserve sports fields and administrators to manage bookings with secure payment verification.",
+        description: "Laravel-based booking platform that enables tenants to reserve sports fields and administrators to manage bookings with secure payment verification.",
         image: "/projects/11.png",
         tags: ["Laravel", "PHP", "JavaScript", "TailwindCSS", "MySQL"],
         publishedAt: "2025-08-01",
@@ -48,11 +48,11 @@ const projects = [
     {
         id: 2,
         title: "Warehouse Management System with Angular and Laravel",
-        description: "A warehouse management system built with Angular and Laravel to efficiently manage products, categories, suppliers, and stock movements in real time.",
+        description: "Warehouse management system built with Angular and Laravel to efficiently manage products, categories, suppliers, and stock movements in real time.",
         image: "/images/2.png",
         tags: ["TypeScript", "Angular", "Laravel", "MySQL", "Tailwind CSS"],
         publishedAt: "2024-08-13",
-        summary: "A warehouse management system built with Angular and Laravel to efficiently manage products, categories, suppliers, and stock movements in real time.",
+        summary: "Warehouse management system built with Angular and Laravel to efficiently manage products, categories, suppliers, and stock movements in real time.",
         images: ["/images/2.png"],
         team: [{
             name: "Muhamad Dimas Pratama",
@@ -86,11 +86,11 @@ const projects = [
     {
         id: 3,
         title: "Intrinsic Value Analyzer Stock Fair Value Calculator with Fundamental Insights",
-        description: "An interactive calculator that helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
+        description: "Interactive calculator helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
         image: "/images/3.png",
         tags: ["Python", "Streamlit", "Pandas", "Plotly", "XlsxWriter"],
         publishedAt: "2025-08-13",
-        summary: "An interactive calculator that helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
+        summary: "Interactive calculator helps retail investors analyze the fair value of a stock by comparing a target company's financial ratios with its sector average.",
         images: ["/images/3.png", "/images/15.png", "/images/16.png", "/images/17.png"],
         team: [{
             name: "Muhamad Dimas Pratama",
