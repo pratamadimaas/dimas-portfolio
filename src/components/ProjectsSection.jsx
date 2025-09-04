@@ -4,7 +4,7 @@ import { ArrowRight, ExternalLink, Github, Calendar, User, ArrowLeft } from "luc
 const projects = [
     {
         id: 1,
-        title: "Sports Field Booking Application (Laravel)",
+        title: "Sports Field Booking Application",
         description: "Laravel-based booking platform that enables tenants to reserve sports fields and administrators to manage bookings with secure payment verification.",
         image: "/projects/11.png",
         tags: ["Laravel", "PHP", "JavaScript", "TailwindCSS", "MySQL"],
@@ -163,12 +163,12 @@ const projects = [
     },
     {
         id: 5,
-        title: "Helpdesk Ticketing Application (Laravel)",
-        description: "A comprehensive service desk application to streamline ticket management for internal teams, built with a custom Laravel backend and a responsive Bootstrap frontend.",
+        title: "Helpdesk Ticketing Application",
+        description: "Service Desk Application to streamline ticket management for internal teams, built with a custom Laravel backend and a responsive Bootstrap frontend.",
         image: "/projects/9.png",
         tags: ["PHP", "Laravel", "Bootstrap", "Tailwind CSS", "MySQL"],
         publishedAt: "2025-08-16",
-        summary: "A comprehensive service desk application to streamline ticket management for internal teams, built with a custom Laravel backend and a responsive Bootstrap frontend.",
+        summary: "Service Desk Application to streamline ticket management for internal teams, built with a custom Laravel backend and a responsive Bootstrap frontend.",
         images: ["/images/9.png", "/images/10.png"],
         team: [{
             name: "Muhamad Dimas Pratama",
@@ -200,11 +200,11 @@ const projects = [
     {
         id: 6,
         title: "Helping Small Businesses Thrive through an E-Commerce Platform for UMKM",
-        description: "A responsive e-commerce application designed to help UMKM (Usaha Mikro, Kecil, dan Menengah) showcase and sell their products online, complete with an intuitive admin dashboard and seamless checkout process.",
+        description: "E-commerce application designed to help UMKM (Usaha Mikro, Kecil, dan Menengah) showcase and sell their products online, complete with an intuitive admin dashboard and seamless checkout process.",
         image: "/projects/4.png",
         tags: ["PHP", "Laravel", "Bootstrap", "Tailwind CSS", "MySQL"],
         publishedAt: "2024-04-01",
-        summary: "A responsive e-commerce application designed to help UMKM (Usaha Mikro, Kecil, dan Menengah) showcase and sell their products online, complete with an an intuitive admin dashboard and seamless checkout process.",
+        summary: "E-commerce application designed to help UMKM (Usaha Mikro, Kecil, dan Menengah) showcase and sell their products online, complete with an an intuitive admin dashboard and seamless checkout process.",
         images: ["/images/4.png", "/images/21.png", "/images/18.png", "/images/19.png", "/images/20.png", "/images/5.png"],
         team: [{
             name: "Muhamad Dimas Pratama",
@@ -238,12 +238,12 @@ const projects = [
     {
         id: 7,
         title: "Accounting System (MERN Stack)",
-        description: "A comprehensive accounting application built with the MERN stack for streamlined financial record-keeping, from general journals to financial reports.",
+        description: "Accounting application built with the MERN stack for streamlined financial record-keeping, from general journals to financial reports.",
         images:["/images/22.png", "/images/23.png", "/images/24.png"],
         tags: ["React.js", "Express.js", "Node.js", "MongoDB"],
         image: "/images/24.png",
         publishedAt: "2025-08-23",
-        summary: "A full-stack accounting application that automates financial workflows, including general journal entries, ledger management, and real-time financial reporting.",
+        summary: "Accounting application that automates financial workflows, including general journal entries, ledger management, and real-time financial reporting.",
         team: [{
             name: "Muhamad Dimas Pratama",
             role: "Full-Stack Developer",
