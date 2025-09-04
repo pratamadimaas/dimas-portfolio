@@ -24,13 +24,16 @@ const skills = [
   { name: "XAMPP", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
   { name: "MongoDB", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "PostgreSQL", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
-
+  { name: "PhpMyAdmin", category: "tools", image: "https://www.phpmyadmin.net/static/images/logo.png" },
   // Data Analytics
   { name: "Pandas", category: "data-analytics", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" },
   { name: "NumPy", category: "data-analytics", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" },
   { name: "Matplotlib", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" },
   { name: "Tableau", category: "data-analytics", image: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
   { name: "VBA", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
+  { name: "Seaborn", category: "data-analytics", image: "https://seaborn.pydata.org/_static/logo-mark-lightbg.svg" },
+  { name: "Scikit-learn", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+  { name: "SciPy", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg" },
 ];
 
 const categories = [
