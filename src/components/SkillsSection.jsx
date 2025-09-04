@@ -17,34 +17,25 @@ const skills = [
   { name: "Tailwind CSS", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
   { name: "Node.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
 
-  // Tools
-  { name: "VS Code", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-  { name: "GitHub", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-  { name: "Postman", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
-  { name: "XAMPP", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
-  { name: "MongoDB", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-  { name: "PostgreSQL", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
-  { name: "PhpMyAdmin", category: "tools", image: "https://www.phpmyadmin.net/static/images/logo.png" },
-  { name: "Git", category: "tools", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  // Data Analytics
-  { name: "Pandas", category: "data-analytics", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" },
-  { name: "NumPy", category: "data-analytics", image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" },
-  { name: "Matplotlib", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" },
-  { name: "Seaborn", category: "data-analytics", image: "https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" },
-  { name: "Plotly", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" },
-  { name: "Tableau", category: "data-analytics", image: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
-  { name: "Jupyter", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
-  { name: "Scikit-learn", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
-  { name: "TensorFlow", category: "data-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
-  { name: "VBA", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
-  { name: "Google Sheets", category: "data-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" },
+  
+  { name: "VS Code", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+  { name: "GitHub", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+  { name: "Postman", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
+  { name: "XAMPP", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
+  { name: "MongoDB", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+  { name: "PostgreSQL", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+  { name: "PhpMyAdmin", category: "tools-analytics", image: "https://www.phpmyadmin.net/static/images/logo.png" },
+  { name: "Git", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { name: "Tableau", category: "tools-analytics", image: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
+  { name: "Jupyter", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
+  { name: "VBA", category: "tools-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
+  { name: "Google Sheets", category: "tools-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" },
 ];
 
 const categories = [
   { key: "all", label: "All", icon: Layers },
   { key: "tech-stack", label: "Tech Stack", icon: Code2 },
-  { key: "tools", label: "Tools", icon: Wrench },
-  { key: "data-analytics", label: "Data Analytics", icon: BarChart3 },
+  { key: "tools-analytics", label: "Tools & Data Analytics", icon: Wrench },
 ];
 
 export const SkillsSection = () => {
