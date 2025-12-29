@@ -12,7 +12,6 @@ const skills = [
 
   { name: "React.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Express.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-  { name: "Angular", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
   { name: "Laravel", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
   { name: "Tailwind CSS", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
   { name: "Node.js", category: "tech-stack", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
@@ -28,7 +27,6 @@ const skills = [
   { name: "Git", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "Tableau", category: "tools-analytics", image: "https://logos-world.net/wp-content/uploads/2021/10/Tableau-Symbol.png" },
   { name: "Jupyter", category: "tools-analytics", image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
-  { name: "VBA", category: "tools-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" },
   { name: "Google Sheets", category: "tools-analytics", image: "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" },
 ];
 

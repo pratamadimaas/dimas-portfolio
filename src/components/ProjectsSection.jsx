@@ -279,8 +279,56 @@ const projects = [
             outcome: "The application successfully automates the core accounting cycle, significantly reducing manual effort and potential errors. It showcases the synergy between financial knowledge and technical skills, proving that technology can effectively simplify complex financial tasks. The project is a foundation for more advanced features like budgeting, cash flow statements, and asset management."
         }
     },
+    {
+        id: 8,
+        title: "Government Ledger Compliance Analyzer",
+        description: "Comprehensive Python-based analyzer for government financial ledger validation, automating 151 compliance criteria across accrual basis, cash basis, bank segments, and comparative analysis.",
+        images: ["/images/25.png", "/images/26.png", "/images/27.png", "/images/28.png"],
+        tags: ["Python", "Pandas", "Data Analysis", "Financial Compliance", "Automation"],
+        image: "/images/25.png",
+        publishedAt: "2025-09-15",
+        summary: "Advanced financial compliance tool that validates government ledgers against 151 regulatory criteria, ensuring accuracy and compliance in financial reporting for government institutions.",
+        team: [{
+            name: "Muhamad Dimas Pratama",
+            role: "Data Analyst & Financial Engineer",
+            avatar: "/images/1.jpg",
+            linkedIn: "https://www.linkedin.com/in/pratamadimaas/"
+        }],
+        liveLink: "#",
+        githubUrl: "#",
+        content: {
+            overview: "The Government Ledger Compliance Analyzer is a sophisticated Python application designed to automate the validation of government financial ledgers. Built as a solution for financial auditors and government accountants, this tool analyzes ledger data against 151 comprehensive compliance criteria across four major categories: Accrual Ledger (24 criteria), Cash Ledger (32 criteria), Bank Segment Analysis (14 criteria), and Comparative Analysis between Accrual and Cash Basis (51 criteria). The system processes complex Excel files containing thousands of financial transactions and provides detailed compliance reports with actionable insights.",
+            keyFeatures: [
+                "Multi-Dimensional Analysis: Validates ledgers across 4 major analysis categories with 151 total compliance criteria.",
+                "Accrual Ledger Validation (24 Criteria): Checks account balances, ensures proper account segregation by work units (SATKER), validates budget allocation (BA) compliance, and verifies transitory account settlements.",
+                "Cash Ledger Validation (32 Criteria): Validates cash account positions, checks bank segment compliance, ensures proper budget allocation by BA codes, and verifies suspense account clearance.",
+                "Bank Segment Analysis (14 Criteria): Validates proper account classification by bank segments (B, E, I, M, X, 5, 6), ensures positive balances where required, and checks prohibited account usage in specific segments.",
+                "Comparative Analysis (51 Criteria): Compares accrual vs cash basis for 51 account positions, validates transitory account reconciliation, checks cash flow consistency, and identifies discrepancies in complex account groups.",
+                "Automated Compliance Reporting: Generates detailed compliance reports with pass/fail status for each criterion, provides specific account-level details for non-compliance, and calculates overall compliance percentage.",
+                "Excel File Processing: Reads multiple sheets from government ledger Excel files, handles large datasets efficiently with Pandas, and supports various Excel formats and structures."
+            ],
+            technologies: [
+                "Python 3.x: Core programming language for business logic and data processing.",
+                "Pandas: Advanced data manipulation, filtering, and analysis of financial ledgers.",
+                "Regular Expressions (re): Pattern matching for account codes and budget allocation codes.",
+                "Object-Oriented Programming: Modular analyzer classes.",
+                "Excel Processing: Handling complex Excel file structures with multiple sheets and columns."
+            ],
+            challenges: "One of the main challenges was handling the complexity of government accounting rules, which involve intricate relationships between account codes, work units (SATKER), and budget allocations (BA). The system needed to support flexible pattern matching for account codes while maintaining high performance when processing thousands of transactions. Another significant challenge was implementing the comparative analysis between accrual and cash basis ledgers, which required tracking transitory accounts and understanding the timing differences in government accounting. The solution involved creating specialized analyzer classes for each validation category and implementing efficient filtering mechanisms using Pandas and regular expressions.",
+            workflow: [
+                "User uploads government ledger Excel files (Accrual and Cash basis).",
+                "System reads and validates file structure, ensuring all required columns are present.",
+                "Accrual Ledger Analyzer validates 24 criteria including account balances, SATKER compliance, and BA restrictions.",
+                "Cash Ledger Analyzer validates 32 criteria including cash positions, bank segments, and suspense accounts.",
+                "Bank Segment Analyzer validates 14 criteria ensuring proper account classification and segment compliance.",
+                "Comparative Analyzer validates 51 criteria comparing accrual vs cash basis ledgers.",
+                "System generates comprehensive compliance report with detailed findings for each criterion.",
+                "Auditors review the report and investigate flagged non-compliance issues."
+            ],
+            outcome: "The analyzer has dramatically improved the efficiency and accuracy of government ledger audits. Key achievements include reducing audit time by 85% (from weeks to hours), eliminating human error in compliance checking by automating 151 complex validation rules, providing detailed audit trails with account-level discrepancy reports, and enabling consistent compliance enforcement across multiple government institutions. The tool has become an essential asset for financial auditors, demonstrating how data analysis and financial expertise can combine to solve complex regulatory compliance challenges."
+        }
+    }
 ];
-
 const ProjectDetail = ({ project, onBack }) => {
     return (
         <div className="min-h-screen bg-background">
@@ -361,7 +409,7 @@ const ProjectDetail = ({ project, onBack }) => {
                 {/* Key Features Section */}
                 <div className="mb-8">
                     <h2 className="text-2xl font-bold mb-4">Key Features</h2>
-                    <ul className="space-y-2">
+                    <ul className="space-y-3">
                         {project.content.keyFeatures.map((feature, index) => (
                             <li key={index} className="flex items-start gap-2">
                                 <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
