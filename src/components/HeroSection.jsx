@@ -21,9 +21,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I’m a Web Developer & Data Analytics enthusiast passionate about
-            building modern, efficient applications and turning data into
-            meaningful insights.
+            Fullstack Developer exploring Machine Learning to build modern and impactful digital solutions.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

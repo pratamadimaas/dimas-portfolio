@@ -49,7 +49,7 @@ export const AboutSection = () => {
                 
                 <h3 className="text-2xl font-semibold mb-6 relative">
                   <span className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-                    Web Developer & Data Analytics Enthusiast
+                    Fullstack Developer & Machine Learning Enthusiast
                   </span>
                   <div className="absolute -right-6 top-1">
                     <Zap className="h-4 w-4 text-primary/70 animate-pulse" />
@@ -57,20 +57,19 @@ export const AboutSection = () => {
                 </h3>
 
                 <div className="space-y-4">
-                  <p className="text-muted-foreground leading-relaxed relative pl-4">
-                    <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse"></div>
-                    I build responsive, secure, and efficient web applications using modern frameworks. 
-                    My focus is on creating solutions that are not just functional, 
-                    but also provide a great user experience.
-                  </p>
+                <p className="text-muted-foreground leading-relaxed relative pl-4">
+                  <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse"></div>
+                  Experienced in building web applications with focus on clean architecture, strong security, and solid performance.
+                  Technology should not only function, but also feel intuitive, accessible, and comfortable for users to create 
+                  solutions that achieve this balance is something I value deeply.
+                </p>
 
-                  <p className="text-muted-foreground leading-relaxed relative pl-4">
-                    <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse delay-300"></div>
-                    I also enjoy the challenge of making sense of data. 
-                    I leverage my skills in both development and data analysis to build intelligent applications 
-                    that provide valuable insights and support strategic decision-making.
-                  </p>
-                </div>
+                <p className="text-muted-foreground leading-relaxed relative pl-4">
+                  <div className="absolute left-0 top-1 w-2 h-2 bg-primary/50 rounded-full animate-pulse delay-300"></div>
+                  Alongside web development, there’s a strong passion for machine learning and data science. working with data,
+                  discovering patterns, and turning insights into intelligent systems that support decisions and create measurable impact.
+                </p>
+              </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-6">
                   <a href="#contact" className="group relative cosmic-button transform hover:scale-105 transition-all duration-300">
@@ -142,15 +141,15 @@ export const AboutSection = () => {
                   
                   <div className="text-left flex-1">
                     <h4 className="font-semibold text-lg mb-2 relative">
-                      Data Analytics
-                      <div className="absolute -right-4 -top-1">
-                        <div className="w-2 h-2 bg-primary/60 rounded-full animate-pulse delay-200"></div>
-                      </div>
-                    </h4>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      Analyzing and visualizing data to uncover insights and
-                      support decision-making.
-                    </p>
+                    Machine Learning & Data Science
+                    <div className="absolute -right-4 -top-1">
+                      <div className="w-2 h-2 bg-primary/60 rounded-full animate-pulse delay-200"></div>
+                    </div>
+                  </h4>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    Exploring machine learning models, data preprocessing, and insight extraction 
+                    through visualization and predictive analysis.
+                  </p>
                     
                     {/* Progress Bar Effect */}
                     <div className="mt-3 h-1 bg-muted rounded-full overflow-hidden">
